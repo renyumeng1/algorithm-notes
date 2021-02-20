@@ -2,7 +2,7 @@
 def gcd(a,b):
     if b==0:return a
     else:return gcd(b,a%b)
-def fi(n):
+def fi(n):#dp
     if n <= 2:
         return 1
     pre = 1
